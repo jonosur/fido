@@ -1,3 +1,7 @@
+[![Language](https://img.shields.io/badge/language-Python-green.svg?style=for-the-badge)](http://www.python.org)
+[![MIT](https://shields.io/badge/license-MIT-green?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+[![Issues](https://img.shields.io/github/issues/jonosur/fido?style=for-the-badge)](https://github.com/jonosur/fido/issues)
+
 ### FIDO
 
 fido.py fetches LUSERS, MAP, MOTD, LIST for servers in the list and stores the results. 
