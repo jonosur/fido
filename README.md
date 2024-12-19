@@ -2,8 +2,21 @@
 
 fido.py fetches LUSERS, MAP, MOTD, LIST for servers in the list and stores the results. 
 
-Make sure you have pendulum installed. 
+Make sure you have pendulum installed.
 
+Edit the fido.py's following hardset variables.
+```
+server_list = ['irc.server1.com:6667', 'irc.server2.com:6667']
+server_index = 0
+channel = "#services"
+nickname = "fido"
+realname = "i fetch MOTD, LUSERS, MAP, and LIST."
+data_dir = "./data"
+#change this to 0 or bot will not load.
+die = 1
+```
+
+Tested using Python3.
 ```
 =================================================================
              .       ..
