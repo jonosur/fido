@@ -11,8 +11,8 @@ channel = "#services"
 nickname = "fido"
 realname = "i fetch MOTD, LUSERS, MAP, and LIST."
 data_dir = "./data"
-#change this to 0
-die = 0
+#change this to 0 or bot will die
+die = 1
 
 def print_fido():
     print("""
@@ -30,7 +30,7 @@ def print_fido():
   '888      R888"  `"888*""      'Y"
    88R       ""       ""
    88>
-   48       v1.2
+   48       v1
    '8
     """)
 
